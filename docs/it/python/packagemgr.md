@@ -1,4 +1,4 @@
-#python包管理器
+#python包管理
 
 ##手工安装
 
@@ -8,7 +8,7 @@
 3. 执行`python setup.py install`
 
 
-##包
+##包管理工具
 
 ###setuptools
 
@@ -17,15 +17,3 @@
 ###pip
 
 [pypi](https://pypi.python.org/pypi/pip)
-
-###selenium
-
-[pypi](https://pypi.python.org/pypi/selenium#downloads)
-
-###misaka
-
-[github](https://github.com/FSX/misaka)
-
-###Pygments
-
-[pypi](https://pypi.python.org/pypi/Pygments)
