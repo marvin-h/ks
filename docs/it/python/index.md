@@ -11,6 +11,6 @@
 
 +   语言核心
 
-    +   [基础](basic.md)
+    +   [起步](start.md)
     +   [内建类型](basic-builtintype.md)
     +   [运算符](oper.md)
