@@ -12,7 +12,7 @@ git config --global user.email xxxx@gmail.com
 
 ```
 cd ~/.ssh
-#创建过程会要求输入密码，如果不需要密钥，直接回车
+#创建过程会要求输入密码，如果不需要密码，直接回车
 #会生成两个文件id_rsa和id_rsa.pub
 ssh-keygen -t rsa -C “xxxx@gmail.com”
 ssh-add id_rsa
@@ -45,6 +45,9 @@ ssh git@github.com
 
 
 ##clone
+
+不要使用github上给出的地址
+使用ssh config中的`user@host`作为地址
 
 ```
 #git clone user@host:xxx/proj.git
