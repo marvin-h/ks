@@ -23,3 +23,19 @@ git push origin master
 ```
 git push origin :master
 ```
+
+###git push shortname tagname
+
+推送标签到远程仓库
+
+```
+git push origin v1.5
+```
+
+###git push shortname --tags
+
+推送所有标签到远程仓库
+
+```
+git push origin --tags
+```

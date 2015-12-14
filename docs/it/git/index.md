@@ -20,6 +20,8 @@
     +   [git mv](gitmv.md)
     +   [git rm](gitrm.md)
     +   [git log](gitlog.md)
+    +   [git tag](gittag.md)
+    +   [git show](gitshow.md)
     +   [git fetch](gitfetch.md)
     +   [git pull](gitpull.md)
     +   [git push](gitpush.md)
