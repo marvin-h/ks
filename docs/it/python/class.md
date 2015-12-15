@@ -36,7 +36,7 @@ Test.f
 t = Test()
 ```
 
-##构造方法
+##构造器
 
 实例化时会调用`__init__`方法，
 
@@ -59,7 +59,7 @@ t=Test1('cc')
 
 `__del__`
 
-对象被GC回收之前做一些清理工作，避免使用
+对象的引用为0被GC回收之前做一些清理工作，避免使用
 
 
 ##实例对象
@@ -94,6 +94,36 @@ print(d.name)
 print(d1.name)
 print(d.t)
 print(d1.t)
+```
+
+##静态方法和类方法
+
++   静态方法
+
+    用@staticmethod声明。
+    可以访问类属性，不能访问实例属性。
+
++   类方法
+
+    用@classmethod声明，有个cls参数。
+    可以访问类属性，不能访问实例属性。
+
++   实例方法
+
+    绑定到实例对象
+
+```
+class Test:
+    @staticmethod
+    def smethod():
+        print('static')
+
+    @classmethod
+    def cmethod(cls):
+        print('class', cls)
+
+    def imethod(self):
+        print('instance')
 ```
 
 ##数据隐藏

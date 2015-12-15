@@ -28,3 +28,6 @@ print(1,2,3,sep='|') #1|2|3
 
 ##isinstance
 
+##dir
+
+
