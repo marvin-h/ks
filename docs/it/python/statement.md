@@ -1,0 +1,113 @@
+#语句
+
+##代码块
+
+用`:`代表代码的开始
+用空格或tab缩进语句（推荐空格）来创建代码
+块中每行要有相同的缩进量
+
+
+##if
+
+if语句的条件表达式不需要括号括起来
+
+```
+if expr:
+    statements
+elif expr:
+    statements
+else:
+    statements
+```
+
+```
+y=0
+if x < 0:
+    y=-1
+elif x < 10:
+    y=0
+else:
+    y=1
+```
+
+##while循环
+
+```
+while expr:
+    statements
+```
+
+```
+x=1
+while x<10:
+    print(x)
+    x+=1
+```
+
+
+##for循环
+
+```
+for var in iterable:
+    statements
+```
+
+```
+for x in [1,2,3]:
+    print(x)
+```
+
+
+##break
+
+跳出循环
+
+```
+x=1
+while x < 100:
+    if x > 10:
+        break
+    x+=1
+```
+
+##continue
+
+跳到下一次循环
+
+##pass
+
+占位，什么也不做
+python不能有空代码块
+
+```
+x=11
+if x > 10:
+    pass
+```
+
+##assert
+
+断言
+
+expr为假时，才会触发断言
+
+```
+assert expr[, string]
+```
+
+```
+x=1
+assert x>0
+assert x<0 #trigger assert
+assert x<0, 'lt 0' #trigger assert
+```
+
+##del
+
+移除引用
+
+```
+x=1
+del x
+x #error
+```
