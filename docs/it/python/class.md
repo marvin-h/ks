@@ -38,7 +38,7 @@ t = Test()
 
 ##构造器
 
-实例化时会调用`__init__`方法，
+实例化时会调用`__init__(self [,params])`方法，
 
 ```
 class Test:
@@ -57,7 +57,7 @@ t=Test1('cc')
 
 ##析构方法
 
-`__del__`
+`__del__(self)`
 
 对象的引用为0被GC回收之前做一些清理工作，避免使用
 
@@ -100,7 +100,7 @@ print(d1.t)
 
 +   静态方法
 
-    用@staticmethod声明。
+    用@staticmethod声明，也可以不用声明。
     可以访问类属性，不能访问实例属性。
 
 +   类方法
@@ -114,16 +114,20 @@ print(d1.t)
 
 ```
 class Test:
+    name='cc'
     @staticmethod
     def smethod():
         print('static')
+        print(Test.name)
 
     @classmethod
     def cmethod(cls):
         print('class', cls)
+        print(cls.name)
 
     def imethod(self):
         print('instance')
+        print(self.name)
 ```
 
 ##数据隐藏
@@ -140,4 +144,3 @@ d=Dog('cc')
 #print(d.__name)
 print(d._Dog__name)
 ```
-

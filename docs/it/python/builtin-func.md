@@ -30,4 +30,37 @@ print(1,2,3,sep='|') #1|2|3
 
 ##dir
 
+##hasattr
+
+##getattr
+
+##setattr
+
+##delattr
+
+##abs
+
+返回绝对值。
+如果是复数，返回math.sqrt(real, imag)
+
+`abs(number)`
+
+##coerce
+
+python3已经删除。
+
+##apply
+
+python3已经删除。
+
+##reduce
+
+python3已经删除。
+
+
+
+
+
+
+
 

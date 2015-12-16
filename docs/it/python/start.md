@@ -56,3 +56,24 @@ x=input('name:')
 ```
 print('hello world')
 ```
+
+
+##跨行
+
+用`\`实现跨行。
+
+```
+def f(x, y\
+      ):
+    return x + y
+
+print(f(1,2))
+```
+
+字符串也可用3个引号实现跨行。
+
+```
+x='''aaa
+bb'''
+```
+
