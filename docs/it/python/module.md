@@ -89,3 +89,15 @@ from package import module
 如果没有定义，不会导入所有子模块，只会导入包定义的名称，即`__init__.py`中定义的名称（包括它显示导入的名称）。
 
 ##`__import__`
+
+
+##查看模块信息
+
+```
+dir(package)
+[n for n in dir(mypackage) if not n.startswith('__')]
+
+help(package)
+
+package.__file__ # 源代码位置
+```
