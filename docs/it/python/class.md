@@ -144,3 +144,34 @@ d=Dog('cc')
 #print(d.__name)
 print(d._Dog__name)
 ```
+
+##property
+
+属性用来处理对实例属性的访问。
+
+`property(fget=None, fset=None, fdel=None, doc=None) -> property attribute`
+
+property的4个参数
+
++   fget，读
++   fset，写
++   fdel，删除
++   doc，文档字符串
+
+```
+class Coordinate:
+    def __init__(self):
+        self.x=0
+        self.y=0
+
+    def get(self):
+        return self.x, self.y
+
+    def set(self,v):
+        self.x,self.y=v
+        
+    value=property(get,set)
+
+c=Coordinate()
+c.value=1,2
+```

@@ -22,7 +22,16 @@ print(1,2,3,sep='|') #1|2|3
 
 ##locals
 
+返回局部命名空间的字典。
+
+`locals()`
+
 ##globals
+
+返回全局命名空间的字典。
+
+`globals()`
+
 
 ##issubclass
 
@@ -44,6 +53,8 @@ print(1,2,3,sep='|') #1|2|3
 如果是复数，返回math.sqrt(real, imag)
 
 `abs(number)`
+
+##id
 
 ##coerce
 
