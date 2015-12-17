@@ -47,26 +47,39 @@ print(1,2,3,sep='|') #1|2|3
 
 ##delattr
 
-##abs
+##abs(number)
 
 返回绝对值。
 如果是复数，返回math.sqrt(real, imag)
 
-`abs(number)`
-
 ##id
 
-##coerce
+##chr(i)
 
-python3已经删除。
+数字转unicode字符。
 
-##apply
+chr(i) -> Unicode character
+Return a Unicode string of one character with ordinal i; 0 <= i <= 0x10ffff.
 
-python3已经删除。
+##ord(c)
 
-##reduce
+ascii字符转数字。
 
-python3已经删除。
+ord(c) -> integer
+
+##sorted
+
+##reversed
+
+##enumerate
+
+##zip
+
+##python3移除的函数
+
++   coerce
++   apply
++   reduce
 
 
 
