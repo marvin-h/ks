@@ -86,10 +86,10 @@ class Child(Test):
 
 ##super
 
-查找父类，返回type的父类。
-如果父类需要被绑定，可以传入obj。obj也可以是一个type，必须是type的子类。
-
 `super(type[,obj])`
+
+查找父类，返回type的父类。
+如果父类需要被绑定，可以传入obj。obj也可以是一类型，必须是type的子类。
 
 如果obj是一个实例，isinstance(obj, type)必须返回True。
 如果obj是一个类，issubclass(obj, type)必须返回True。

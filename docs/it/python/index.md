@@ -19,6 +19,7 @@
     +   [字符串](str.md)
     +   [列表](list.md)
     +   [元组](tuple.md)
+    +   [字典](dict.md)
     +   [集合](set.md)
     +   [函数](function.md)
     +   [作用域](scope.md)
@@ -31,6 +32,10 @@
     +   [模块](module.md)
     +   [内建函数](builtin-func.md)
     +   [内建属性](builtin-attr.md)
+
++   标准库
+
++   第三方库
 
 +   技巧
 
