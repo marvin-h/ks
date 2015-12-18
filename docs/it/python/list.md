@@ -113,6 +113,10 @@ z.sort(key=int)
 提供了一个生成列表的简洁方法。
 
 ```
+[expr for iter_var in iterable if cond_expr]
+```
+
+```
 [x*x for x in range(3)]
 [x*x for x in range(3) if x%3==0]
 [(x,y) for x in range(3) for y in range(3)]

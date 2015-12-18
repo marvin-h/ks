@@ -87,6 +87,10 @@ from package import module
 如果`__init__.py`中定义了一个名为`__all__`的列表，遇到`from package import *`，只会导入列表的模块。
 如果没有定义，不会导入所有子模块，只会导入包定义的名称，即`__init__.py`中定义的名称（包括它显示导入的名称）。
 
+```
+__all__=['test1']
+```
+
 ##`__import__`
 
 
