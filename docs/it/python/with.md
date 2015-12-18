@@ -18,7 +18,7 @@ with open('test.txt') as f:
 
 `__enter__(self)`
 
-进入with语句块时被调用，返回值绑定在as关键字的变量上。
+进入with代码块时被调用，返回值绑定在as关键字的变量上。
 
 `__exit__(self, exc_type, exc_val, exc_tb)` 
 
