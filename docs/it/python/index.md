@@ -24,6 +24,7 @@
     +   [函数](function.md)
     +   [作用域](scope.md)
     +   [命名空间](namespace.md)
+    +   [异常](exception.md)
     +   [类](class.md)
     +   [类特殊方法](class-special-method.md)
     +   [继承](inherit.md)
@@ -37,6 +38,7 @@
     +   [装饰器](decorator.md)
     +   [迭代器](iter.md)
     +   [生成器](generator.md)
+    +   [with](with.md)
 
 +   标准库
 

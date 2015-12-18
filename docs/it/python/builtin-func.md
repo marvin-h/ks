@@ -69,11 +69,49 @@ ord(c) -> integer
 
 ##sorted
 
+```
+sorted(iterable, key=None, reverse=False) --> new sorted list
+```
+
+返回经过排序后的列表。
+key，列表中的每个值会转变为key(val).
+reverse，为True时代表逆向排序。
+
 ##reversed
+
+```
+reversed(sequence) -> reverse iterator over values of the sequence
+```
+
+返回经过逆序排序的迭代器对象。
 
 ##enumerate
 
+```
+enumerate(iterable[, start]) -> iterator for index, value of iterable
+```
+
+返回迭代器对象，由索引-值对组成。
+
+```
+l=list('hello')
+for idx,v in enumerate(l):
+ print(idx,v)
+```
+
 ##zip
+
+```
+zip(iter1 [,iter2 [...]]) --> zip object
+```
+
+将多个序列压缩在一起，返回一个元组的列表。
+不等长的序列，最短序列完了就停止。
+
+```
+for v1,v2 in zip(list('ab'),list('bcd')):
+ print(v1,v2)
+```
 
 ##python3移除的函数
 
