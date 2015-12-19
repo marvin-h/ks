@@ -41,31 +41,40 @@ print(1,2,3,sep='|') #1|2|3
 
 ##hasattr
 
+`hasattr(object, name) -> bool`
+
+判断对象是否有该属性。
+
+```
+hasattr(foo, '__call__') #是否可调用
+```
+
 ##getattr
 
 ##setattr
 
 ##delattr
 
-##abs(number)
+##abs
 
+`abs(number)`
 返回绝对值。
 如果是复数，返回math.sqrt(real, imag)
 
 ##id
 
-##chr(i)
+##chr
 
 数字转unicode字符。
 
-chr(i) -> Unicode character
+`chr(i) -> Unicode character`
 Return a Unicode string of one character with ordinal i; 0 <= i <= 0x10ffff.
 
-##ord(c)
+##ord
 
 ascii字符转数字。
 
-ord(c) -> integer
+`ord(c) -> integer`
 
 ##sorted
 
@@ -112,6 +121,48 @@ zip(iter1 [,iter2 [...]]) --> zip object
 for v1,v2 in zip(list('ab'),list('bcd')):
  print(v1,v2)
 ```
+
+###compile
+
+`compile(source, filename, mode[, flags[, dont_inherit]]) -> code object`
+
+生成代码对象。
+
++   source
+    
+    源代码。
+
++   filename
+
+    存放代码对象的文件名。
+
++   mode
+
+    +   eval, 可求值表达式。
+    +   single，单一可执行语句。
+    +   exec，可执行语句集合。
+
+```
+c=compile('200+300','','eval')
+print(eval(c))
+```
+
+###eval
+
+`eval(source[, globals[, locals]]) -> value`
+
+对表达式求值。
+source可是代码对象，也可以是字符串。
+globals，代表全局命名空间，默认是globals()。
+locals，代表局部命名空间，默认是locals()。
+
+###exec
+
+执行python语句。
+source可是代码对象，也可以是字符串。
+globals，代表全局命名空间，默认是globals()。
+locals，代表局部命名空间，默认是locals()。
+
 
 ##python3移除的函数
 

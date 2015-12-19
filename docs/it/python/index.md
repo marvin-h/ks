@@ -30,6 +30,7 @@
     +   [继承](inherit.md)
     +   [元类](metaclass.md)
     +   [模块](module.md)
+    +   [文件](file.md)
     +   [内建函数](builtin-func.md)
     +   [内建属性](builtin-attr.md)
 
