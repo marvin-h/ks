@@ -4,10 +4,6 @@
 
 
 
-    +   [类](class.md)
-    +   [类特殊方法](class-special-method.md)
-    +   [继承](inherit.md)
-    +   [元类](metaclass.md)
     +   [模块](module.md)
     +   [文件](file.md)
     +   [内建函数](builtin-func.md)
