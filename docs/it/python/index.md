@@ -1,30 +1,9 @@
 #python
 
-+   资源
-
-    +   [资源](resrc.md)
-
-+   包管理
-
-    +   [包管理](packagemgr.md)
-    +   [包资源](package.md)
-
 +   语言核心
 
-    +   [起步](start.md)
-    +   [内建类型](basic-builtin-type.md)
-    +   [运算符](oper.md)
-    +   [语句](statement.md)
-    +   [序列](sequence.md)
-    +   [字符串](str.md)
-    +   [列表](list.md)
-    +   [元组](tuple.md)
-    +   [字典](dict.md)
-    +   [集合](set.md)
-    +   [函数](function.md)
-    +   [作用域](scope.md)
-    +   [命名空间](namespace.md)
-    +   [异常](exception.md)
+
+
     +   [类](class.md)
     +   [类特殊方法](class-special-method.md)
     +   [继承](inherit.md)
